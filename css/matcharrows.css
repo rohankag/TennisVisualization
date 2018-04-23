@@ -1,0 +1,58 @@
+body {
+	margin-top: 20px;
+	width: 1100px;
+}
+
+svg {
+	width: 1100px;
+	height: 560px;
+	font-family: helvetica, sans-serif;
+}
+
+circle {
+  fill: #1067a0;
+  cursor: pointer;
+}
+
+path {
+	fill: #444;
+	stroke: #444;
+}
+path.edge {
+	fill: none;
+	stroke: #b50e1c;
+	stroke-width: 4px;
+}
+
+line {
+	stroke: #b50e1c;
+	stroke-width: 4px;
+}
+
+g.player text.name {
+	font-size: 10px;
+	text-anchor: middle;
+	font-weight: 300;
+	fill: white;
+	cursor: pointer;
+}
+
+#menu {
+	margin: 20px 0 20px 0;
+}
+
+#menu div {
+	background-color: #333;
+	color: white;
+	width: 88px;
+	padding: 5px;
+	margin: 1px;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+}
+
+#menu .selected {
+	background-color: #551C85;
+}
+

@@ -1,0 +1,33 @@
+<html lang="en">
+		<head>
+		<meta charset="utf-8">
+    <title>DV Assignment 2</title>
+	<h1 id="title"><span class="large" style="background-color:#f1f442">10 Year AUS Open Matches- Scatter Plot(Winner Points vs Year)</span></h1><br><br><br><br>
+	
+    <script src="js/modernizr.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			
+			<div id="chart" style="min-width: 500px; height: 500px; max-width: 1000px; margin: 0 auto"></div>     
+
+		</div>
+
+		<script src="js/d3.v3.min.js"></script>
+		<script src="js/underscore-min.js"></script>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+	    <script type="text/javascript">
+	      Modernizr.load({
+	        test: Modernizr.svg,
+	        yep: 'js/plot.js',
+	        nope: ['js/jquery-1.9.1.min.js', 'js/fallback.js']
+	      });
+	    </script>
+
+		
+
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <title>DV Assignment 2</title>
+	<div id="title"><span class="large" style="background-color:#f1f442">10 Year AUS Open Matches- Each Player vs plot</span></div>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/svg.css">
+    <link rel="stylesheet" href="css/matcharrows.css">
+    <script src="js/modernizr.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="menu" class="group"></div>
+			<h2 id="winners" ></h2>
+			<div id="chart">
+				<svg>
+					<defs>
+					    <marker id="Triangle"
+					      viewBox="0 0 10 10" refX="0" refY="5" 
+					      markerUnits="strokeWidth"
+					      markerWidth="20" markerHeight="3"
+					      orient="auto">
+					      <path d="M 0 0 L 10 5 L 0 10 z" />
+					    </marker>
+					  </defs>
+  				</svg>
+			</div>
+			<div id="matchDetails" ><h3> DETAILS</h3>
+			<h4 id="beats" style="background-color:#6fe241; width: 500px;"><br></h4>
+			
+			</div>
+			
+
+			<footer>
+				<p>Data Visualization Assignment 2</p>
+			</footer>
+      
+
+		</div>
+
+		<script src="js/d3.v3.min.js"></script>
+		<script src="js/underscore-min.js"></script>
+	    <script type="text/javascript">
+	      Modernizr.load({
+	        test: Modernizr.svg,
+	        yep: 'js/matcharrows.js',
+	        nope: ['js/jquery-1.9.1.min.js', 'js/fallback.js']
+	      });
+	    </script>
+
+		
+
+	</body>
+</html>
